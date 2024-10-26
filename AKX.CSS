@@ -313,3 +313,65 @@ nav {
 
     }
 }
+.popup {
+    display: block;
+    text-align: center;
+    background-color: #fff;
+    transform: translate(-50% -50%);
+    border: 2px solid red;
+    font-family: 'Times New Roman', Times, serif;
+    top: 30%;
+    position: absolute;
+    align-items: center;
+    .xpop1 {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 10px 0px 7px 0px;
+        b {
+            color: red;
+            font-weight: 100;
+        }
+    }
+    .xpop2  {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 10px 0px 7px 0px;
+    }
+    .xpop3 {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 20px 0px 7px 0px;
+    }
+    .xpop4 {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 20px 0px 7px 0px;
+    }
+    .xpop5 {
+        font-size: 16px;
+        font-weight: 200;
+        margin: 20px 0px 7px 0px;
+    }
+    .xpop6 {
+        font-size: 14px;
+        font-weight: 150;
+        text-decoration: underline;
+        margin: 10px 235px 10px 0px;
+    }
+    .xpop7 {
+        font-size: 16px;
+        font-weight: 200;
+        background-color: rgb(241, 63, 63);
+        width: 250px;
+        height: 45px;
+        border-radius: 8px;
+        color: #ffffff;
+        margin: 20px 0px 7px 0px;
+        display: inline-block;
+    }
+    .xpop8 {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 15px 0px 7px 0px;
+    }
+}
