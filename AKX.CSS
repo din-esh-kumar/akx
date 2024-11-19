@@ -302,19 +302,39 @@ nav {
     .himg {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         .img1 {
-            height: 65%;
-            width: 95%;
+            height: 200px;
+            width: 200px;
+            flex-basis: 45%;
+            margin: 5px 0px 5px 0px;
+            border: 2px solid red;
         }
         .img2 {
-            height: 85%;
-            width: 95%;
+            height: 200px;
+            width: 200px;
+            flex-basis: 45%;
+            margin: 5px 0px 5px 0px;
+            border: 2px solid red;
         }
-
+        .img3 {
+            border: 2px solid red;
+            height: 200px;
+            width: 200px;
+            flex-basis: 45%;
+            margin: 0px 0px 5px 0px;
+        }
+        .img4 {
+            height: 200px;
+            border: 2px solid red;
+            width: 200px;
+            flex-basis: 45%;
+            margin: 0px 0px 5px 0px;
+        }
     }
 }
 .popup {
-    display: block;
+    display: none;
     text-align: center;
     background-color: #fff;
     transform: translate(-50% -50%);
@@ -323,6 +343,7 @@ nav {
     top: 30%;
     position: absolute;
     align-items: center;
+    height: 678px;
     .xpop1 {
         font-size: 16px;
         font-weight: 200;
@@ -374,4 +395,90 @@ nav {
         font-weight: 300;
         margin: 15px 0px 7px 0px;
     }
+}
+.pagebtn {
+    justify-content: center;
+    .next-btn {
+        font-size: 16px;
+        font-weight: 200;
+        background-color: rgb(241, 63, 63);
+        width: 250px;
+        height: 45px;
+        border-radius: 8px;
+        color: #ffffff;
+        margin: 30px 0px 7px 0px;
+        position: relative;
+        left: 80px ;
+    }
+    .pageno {
+        display: flex;
+        .one{
+            border: 2px solid gainsboro;
+            margin: 5px;
+            font-weight: 300;
+            position: relative;
+            border-radius: 10%;
+            background-color: rgb(240, 232, 232);
+            left: 60px ;
+        }
+        .num {
+            border: 2px solid gainsboro;
+            margin: 5px;
+            font-weight: 300;
+            position: relative;
+            left: 60px ;
+            border-radius: 10%; 
+        }
+    }
+}
+.sugg-ptr {
+    margin-top: 20px;
+    h3 {
+        font-family: 'Times New Roman', Times, serif;
+        margin: 3px 5px 8px 3px;
+    }  
+    .pstar {
+        display: flex;
+        flex-wrap: wrap;
+        .akstr {
+            text-align: center;
+            .akimgpstar {
+                height: 150px;
+                width: 130px;
+                flex-basis: 30%;
+                margin: 5px 5px 5px 5px;
+                border: 2px solid red;
+            }
+            h6 {
+                font-weight: 400;
+            }
+        }
+        .thabustr {
+            text-align: center;
+            .thabuimgpstar {
+                height: 150px;
+                width: 130px;
+                flex-basis: 30%;
+                margin: 5px 0px 5px 0px;
+                border: 2px solid red;
+            }
+            h6 {
+                font-weight: 400;
+                font-size: 1rem;
+            }
+        }
+        .ass-str {
+            text-align: center;
+            .assimgpstar {
+                height: 150px;
+                width: 130px;
+                flex-basis: 30%;
+                margin: 5px 5px 5px 0px;
+                border: 2px solid red;
+            }
+            h6 {
+                font-weight: 400;
+            }
+        }
+    } 
 }
