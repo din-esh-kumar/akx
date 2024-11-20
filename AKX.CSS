@@ -187,7 +187,7 @@ nav {
     flex-wrap: wrap;
     .vids {
         flex-basis: 45%;
-        height: 280px;
+        height: 200px;
         border: 2px solid red;
         .grp1 {
             display: flex;
@@ -198,6 +198,7 @@ nav {
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
                 color: rgb(236, 17, 17);
+                margin-top: 3px;
             }
             .vid1title {
                 font-weight: 540;
@@ -213,6 +214,7 @@ nav {
                 border: 1px solid black;
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
+                margin-top: 3px;
                 color: rgb(236, 17, 17);
             }
             .vid2title {
@@ -229,6 +231,7 @@ nav {
                 border: 1px solid black;
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
+                margin-top: 3px;
                 color: rgb(236, 17, 17);
             }
             .vid3title {
@@ -245,6 +248,7 @@ nav {
                 border: 1px solid black;
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
+                margin-top: 3px;
                 color: rgb(236, 17, 17);
             }
             .vid4title {
@@ -261,6 +265,7 @@ nav {
                 border: 1px solid black;
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
+                margin-top: 3px;
                 color: rgb(236, 17, 17);
             }
             .vid5title {
@@ -277,6 +282,7 @@ nav {
                 border: 1px solid black;
                 border-radius: 50%;
                 background-color: rgb(174, 228, 210);
+                margin-top: 3px;
                 color: rgb(236, 17, 17);
             }
             .vid6title {
@@ -307,7 +313,7 @@ nav {
             height: 200px;
             width: 200px;
             flex-basis: 45%;
-            margin: 5px 0px 5px 0px;
+            margin: 5px 5px 5px 0px;
             border: 2px solid red;
         }
         .img2 {
@@ -322,7 +328,7 @@ nav {
             height: 200px;
             width: 200px;
             flex-basis: 45%;
-            margin: 0px 0px 5px 0px;
+            margin: 0px 5px 5px 0px;
         }
         .img4 {
             height: 200px;
@@ -343,7 +349,7 @@ nav {
     top: 30%;
     position: absolute;
     align-items: center;
-    height: 678px;
+    height: 630px;
     .xpop1 {
         font-size: 16px;
         font-weight: 200;
@@ -354,33 +360,33 @@ nav {
         }
     }
     .xpop2  {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 200;
         margin: 10px 0px 7px 0px;
     }
     .xpop3 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 200;
         margin: 20px 0px 7px 0px;
     }
     .xpop4 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 200;
         margin: 20px 0px 7px 0px;
     }
     .xpop5 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 200;
         margin: 20px 0px 7px 0px;
     }
     .xpop6 {
-        font-size: 14px;
+        font-size: 13px;
         font-weight: 150;
         text-decoration: underline;
         margin: 10px 235px 10px 0px;
     }
     .xpop7 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 200;
         background-color: rgb(241, 63, 63);
         width: 250px;
@@ -391,7 +397,7 @@ nav {
         display: inline-block;
     }
     .xpop8 {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
         margin: 15px 0px 7px 0px;
     }
@@ -442,11 +448,12 @@ nav {
         flex-wrap: wrap;
         .akstr {
             text-align: center;
+            position: relative;
             .akimgpstar {
                 height: 150px;
-                width: 130px;
+                width: 120px;
                 flex-basis: 30%;
-                margin: 5px 5px 5px 5px;
+                margin: 5px 5px 5px 25px;
                 border: 2px solid red;
             }
             h6 {
@@ -454,10 +461,11 @@ nav {
             }
         }
         .thabustr {
+            position: relative;
             text-align: center;
             .thabuimgpstar {
                 height: 150px;
-                width: 130px;
+                width: 120px;
                 flex-basis: 30%;
                 margin: 5px 0px 5px 0px;
                 border: 2px solid red;
@@ -468,10 +476,11 @@ nav {
             }
         }
         .ass-str {
+            position: relative;
             text-align: center;
             .assimgpstar {
                 height: 150px;
-                width: 130px;
+                width: 120px;
                 flex-basis: 30%;
                 margin: 5px 5px 5px 0px;
                 border: 2px solid red;
